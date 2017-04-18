@@ -1,0 +1,552 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+/*	footer .content_wrap_4 .width_img img{
+		width: 94%;
+		max-height: 115px;
+		max-width: 155px;
+	}
+
+
+	footer .content_wrap_4 .width_img.first img{
+		padding-right: 0%;
+		margin-bottom: 10%;
+	}
+
+
+	footer .content_wrap_4 .width_img.third img{
+		padding-right: 0%;
+	}*/
+
+	footer .img_sec {
+		position: relative;
+		bottom: 20px;
+	}
+
+	footer .img_first {
+		position: relative;
+		top: 25px;
+	}
+
+
+
+
+	header .toggle-mnu {
+		position: relative;
+		bottom:10px;
+	}
+
+	header .nav_icons .list {
+		display: none;
+	}
+
+	header nav .nav_menu {
+		display: block;
+	}
+
+
+	header .logo_name {
+		display: none;
+	}
+
+	header .logo {
+		position: relative;
+		left: 35px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+/*
+footer .content_wrap_4 .width_img {
+	width: 48%;
+}
+
+footer .content_wrap_4 .width_img img{
+	display: inline-block;
+	width: 100%;
+}*/
+
+
+	.post .post_intro_wrap h2 {
+		font-size: 24px;
+	}
+
+	.post .post_intro_wrap span {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.present .grad_wrap h2 {
+		font-size: 27px;
+	}
+
+	.present .grad_wrap h5 {
+		font-size: 15px;
+	}
+
+	.grad_wrap {
+		padding-top: 0;
+	}
+
+	.grad_wrap  h3{
+		font-size: 16px;
+	}
+
+	.grad_wrap  span{
+		font-size: 13px;
+	}
+
+
+	header .logo {
+		position: relative;
+		left: 17px;
+	}
+
+
+
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.projects ul li{
+		margin-bottom: 20px;
+	}
+
+	footer .foot_last ul {
+		text-align: center;
+	}
+
+	footer .foot_info > ul li{
+		padding-bottom: 0px;
+	}
+/*
+	footer .content_wrap_4 .width_img img{
+		width: 94%;
+		max-height: 115px;
+		max-width: 155px;
+	}
+
+
+	footer .content_wrap_4 .width_img.first img{
+		padding-right: 2%;
+		margin-bottom: 10%;
+	}
+
+
+	footer .content_wrap_4 .width_img.third img{
+		padding-right: 2%;
+	}*/
+
+	.post .post_intro_wrap h2 {
+		font-size: 23px;
+	}
+
+	.post .post_intro_wrap span {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.grad_wrap .btn {
+		margin-top: 20px;
+	}
+
+	.present .text_wrap h3{
+		text-align: center;
+		font-size: 28px;
+	}
+
+	.present .text_wrap span{
+		text-align: left;
+		font-size: 14px;
+	}
+
+	.present .text_wrap li{
+		font-size: 13px;
+	}
+
+	.present .text_wrap li:last-child{
+		margin-bottom: 50px;
+	}
+
+	.first_info .option_wrap::after {
+		margin: 30px auto 0px;
+	}
+
+	footer .content_wrap_3,{
+		margin-top: 20%;
+	}
+
+	.first_info .option_wrap.custom::after,
+	.first_info .option_wrap.market::after {
+		margin: 30px auto 80px;
+	}
+
+
+
+
+
+	header #carousel-example-generic .item {
+		margin-top: 120px;
+	}
+
+	header #carousel-example-generic span {
+		font-size: 13px;
+	}
+
+	header #carousel-example-generic .slider_text h2{
+		font-size: 24px;
+	}
+
+	header #carousel-example-generic .slider_text h1{
+		font-size: 26px;
+	}
+
+	header #carousel-example-generic .lft,
+	header #carousel-example-generic .rght {
+		height: 60px;
+		width: 35px;
+	}
+
+	header .logo {
+		position: relative;
+		left: 8px;
+	}
+
+	.projects .portfolio_item  {
+		margin-left: 17%;
+		max-width: 370px;
+	}
+
+
+	.first_info .first_wrap,
+	.first_info .second_wrap {
+		margin-bottom: -120px;
+		margin-top: 80px;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width : 575px) {
+
+/*	footer .content_wrap_4 .width_img img{
+		width: 100%;
+	}
+
+
+	footer .content_wrap_4 .width_img.first img{
+		margin-left: 50px;
+		margin-bottom: 10%;
+	}
+
+	footer .content_wrap_4 .width_img.second img{
+		margin-right: 50px;
+	}
+
+	footer .content_wrap_4 .width_img.third img{
+		margin-left: 50px;
+		margin-bottom: 50px;
+	}
+
+	footer .content_wrap_4 .width_img.fourth img{
+		margin-bottom: 50px;
+		margin-right: 50px;
+	}*/
+
+/*	footer .content_wrap span.readMore::after {
+		margin: -16px 305px 20px;
+	}*/
+
+	footer .content_wrap_4 .width_img.first,
+	footer .content_wrap_4 .width_img.third{
+		text-align: right;
+		margin-right: -20px;
+		margin-left: 15px;
+	}
+
+	footer .content_wrap_4 .width_img.second,
+	footer .content_wrap_4 .width_img.fourth{
+		text-align: left;
+	}
+
+	.present .sect_bg .play_wrap h3 {
+		font-size: 26px;
+	}
+
+	.present .sect_bg .play_wrap span {
+		font-size: 16px;
+		display: block;
+		text-align: center;
+	}
+
+	.grad_wrap {
+		padding-top: 0;
+	}
+
+	.grad_wrap  h3{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.grad_wrap  span{
+		display: block;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.grad_wrap  .btn{
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+
+	.present .text_wrap h3{
+		text-align: center;
+		font-size: 26px;
+	}
+
+	.present .text_wrap span{
+		text-align: center;
+		font-size: 13px;
+	}
+
+	.present .text_wrap li{
+		font-size: 13px;
+	}
+
+
+
+	.first_info .option_wrap.custom::after,
+	.first_info .option_wrap.market::after {
+		margin: 30px auto 0px;
+	}
+
+	.first_info .option_wrap.market::after {
+		margin: 30px auto 60px;
+	}
+
+	footer .content_wrap span,
+	footer .content_wrap_2 span,
+	footer .content_wrap_3 span,
+	footer .content_wrap_4 span {
+		text-align: center;
+	}
+
+	.projects .portfolio-item-1	{
+		margin-right:50px;
+	}
+
+	.projects ul	{
+		margin-right:40px;
+	}
+
+	header nav .hidden_menu {
+		position: absolute;
+	}
+
+	header nav .hidden_menu li {
+		padding:10px 120px 10px 35px;
+		background: rgba(0,0,0,0.7);;
+	}
+
+	header #carousel-example-generic .item {
+		margin-top: 120px;
+	}
+
+	header #carousel-example-generic span {
+		font-size: 13px;
+	}
+
+	header #carousel-example-generic .slider_text h2{
+		font-size: 24px;
+	}
+
+	header #carousel-example-generic .slider_text h1{
+		font-size: 26px;
+	}
+
+	header #carousel-example-generic .lft,
+	header #carousel-example-generic .rght {
+		height: 0px;
+		width: 0px;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 485px) {
+
+
+	.item .btn {
+		padding: 10px 5px;
+		margin-top: 25px;
+		display: inline-block;
+	}
+
+/*	footer .content_wrap_4 .width_img.first img{
+		position: relative;
+		top: 5px;
+		left: 0;
+		width: 65%;
+	}
+
+	footer .content_wrap_4 .width_img.second img{
+		position: relative;
+		top: 5px;
+		left:0;
+		width: 65%;
+	}
+
+	footer .content_wrap_4 .width_img.third img{
+		position: relative;
+		top: 0;
+		right: 0;
+		width: 65%;
+	}
+
+	footer .content_wrap_4 .width_img.fourth img{
+		position: relative;
+		bottom: 0;
+		right: 0;
+		width: 65%;
+	}*/
+
+
+	.item .btn {
+		padding: 15px 10px;
+	}
+
+	header nav .hidden_menu {
+		position: absolute;
+	}
+
+	header nav .hidden_menu li {
+		/*position: absolute;*/
+		display: block;
+		padding:10px 100px 10px 35px;
+		background: rgba(0,0,0,0.7);;
+	}
+
+
+	header .logo {
+		position: relative;
+		left: 13px;
+	}
+
+}
+
+@media only screen and (max-width : 440px) { 
+	header .logo {
+		position: relative;
+		left: 18px;
+	}
+}
+
+@media only screen and (max-width : 410px) { 
+	footer .content_wrap_4 .width_img.first,
+	footer .content_wrap_4 .width_img.third{
+		text-align: right;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+}
+
+
+@media only screen and (max-width : 387px) { 
+	header .logo {
+		position: relative;
+		left: 12px;
+	}
+
+	.projects ul li:first-child {
+		display: block;
+		width: 80%;
+		margin: 20px auto;
+	}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) {
+
+	footer  ul li:first-child::after{
+		display: none;
+	}
+
+/*	footer .content_wrap_4 .width_img.first img,
+	footer .content_wrap_4 .width_img.second img,
+	footer .content_wrap_4 .width_img.third img,
+	footer .content_wrap_4 .width_img.fourth img {
+		width: 64%;
+	}*/
+
+	header .logo {
+		position: relative;
+		left: auto;
+	}
+
+	.item .btn {
+		padding: 10px 5px;
+		margin-top: 25px;
+		display: inline-block;
+	}
+	
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 481px){
+
+	@media only screen and (max-width : 575px) {
+		header .logo {
+			position: relative;
+			left: 40px;
+		}
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	footer .img_sec {
+		position: relative;
+		bottom: 20px;
+	}
+
+	footer .img_first {
+		position: relative;
+		top: -10px;
+	}
+
+}
