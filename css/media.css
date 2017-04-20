@@ -3,22 +3,6 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
 
-/*	footer .content_wrap_4 .width_img img{
-		width: 94%;
-		max-height: 115px;
-		max-width: 155px;
-	}
-
-
-	footer .content_wrap_4 .width_img.first img{
-		padding-right: 0%;
-		margin-bottom: 10%;
-	}
-
-
-	footer .content_wrap_4 .width_img.third img{
-		padding-right: 0%;
-	}*/
 
 	footer .img_sec {
 		position: relative;
@@ -60,19 +44,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
-
-/*
-footer .content_wrap_4 .width_img {
-	width: 48%;
-}
-
-footer .content_wrap_4 .width_img img{
-	display: inline-block;
-	width: 100%;
-}*/
-
-
+	
 	.post .post_intro_wrap h2 {
 		font-size: 24px;
 	}
@@ -238,33 +210,7 @@ footer .content_wrap_4 .width_img img{
 
 @media only screen and (max-width : 575px) {
 
-/*	footer .content_wrap_4 .width_img img{
-		width: 100%;
-	}
 
-
-	footer .content_wrap_4 .width_img.first img{
-		margin-left: 50px;
-		margin-bottom: 10%;
-	}
-
-	footer .content_wrap_4 .width_img.second img{
-		margin-right: 50px;
-	}
-
-	footer .content_wrap_4 .width_img.third img{
-		margin-left: 50px;
-		margin-bottom: 50px;
-	}
-
-	footer .content_wrap_4 .width_img.fourth img{
-		margin-bottom: 50px;
-		margin-right: 50px;
-	}*/
-
-/*	footer .content_wrap span.readMore::after {
-		margin: -16px 305px 20px;
-	}*/
 
 	footer .content_wrap_4 .width_img.first,
 	footer .content_wrap_4 .width_img.third{
@@ -485,12 +431,6 @@ footer .content_wrap_4 .width_img img{
 		display: none;
 	}
 
-/*	footer .content_wrap_4 .width_img.first img,
-	footer .content_wrap_4 .width_img.second img,
-	footer .content_wrap_4 .width_img.third img,
-	footer .content_wrap_4 .width_img.fourth img {
-		width: 64%;
-	}*/
 
 	header .logo {
 		position: relative;
